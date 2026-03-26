@@ -1,0 +1,75 @@
+========================================
+  MY-REACT-APP - React + MongoDB
+  (Beginner - Simple Steps)
+========================================
+
+YOUR APP HAS 2 PARTS:
+1. Backend (server.js) - runs on http://localhost:5001, saves data to MongoDB (studentDB → users)
+2. React (frontend) - runs on http://localhost:5173, the form you see
+
+BOTH must run for registration to work.
+
+----------------------------------------
+OPTION A - ONE COMMAND (Easiest)
+----------------------------------------
+
+1. Open terminal in this folder:  d:\enitha\my-react-app
+
+2. First time only, install extra package:
+   npm install
+
+3. Start BOTH backend + React (one command):
+   npm run start
+
+4. Wait until you see:
+   - "Server running on http://localhost:5001"
+   - "MongoDB Connected"
+   - "Local: http://localhost:5173"
+
+5. Open browser → http://localhost:5173
+   Fill the form and click REGISTER. Data will save to MongoDB.
+
+----------------------------------------
+OPTION B - TWO TERMINALS
+----------------------------------------
+
+Terminal 1:
+  npm run server
+  (Keep this open. You should see "Server running on http://localhost:5001")
+
+Terminal 2:
+  npm run dev
+  (Open http://localhost:5173 in browser)
+
+----------------------------------------
+OPTION C - ONE SERVER ONLY (API + React on port 5001)
+----------------------------------------
+
+1. Open terminal:  d:\enitha\my-react-app
+
+2. Build React and start server (one command):
+   npm run build:serve
+
+3. Wait for "MongoDB Connected" and "Server running at http://localhost:5001"
+
+4. Open browser → http://localhost:5001
+   You get the app and dashboard on the SAME port. MongoDB data loads in Dashboard.
+
+----------------------------------------
+CHECK IF BACKEND IS RUNNING
+----------------------------------------
+
+Open in browser: http://localhost:5001
+If you see "Backend running (port 5001)" → server is OK. Data is stored in MongoDB: studentDB → users.
+
+----------------------------------------
+MongoDB MUST BE RUNNING
+----------------------------------------
+
+- Install MongoDB on your PC if not installed.
+- Or use MongoDB Atlas (cloud) and put that link in .env as MONGO_URI.
+
+Default in .env: mongodb://127.0.0.1:27017/studentDB
+So MongoDB should run on your computer at port 27017.
+
+========================================

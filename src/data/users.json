@@ -1,0 +1,706 @@
+{
+  "success": true,
+  "count": 100,
+  "data": [
+    {
+      "id": "1",
+      "name": "User 1",
+      "email": "user1@example.com",
+      "createdAt": "2026-03-21T09:00:00Z",
+      "category": "today"
+    },
+    {
+      "id": "2",
+      "name": "User 2",
+      "email": "user2@example.com",
+      "createdAt": "2026-03-21T09:01:00Z",
+      "category": "today"
+    },
+    {
+      "id": "3",
+      "name": "User 3",
+      "email": "user3@example.com",
+      "createdAt": "2026-03-21T09:02:00Z",
+      "category": "today"
+    },
+    {
+      "id": "4",
+      "name": "User 4",
+      "email": "user4@example.com",
+      "createdAt": "2026-03-21T09:03:00Z",
+      "category": "today"
+    },
+    {
+      "id": "5",
+      "name": "User 5",
+      "email": "user5@example.com",
+      "createdAt": "2026-03-21T09:04:00Z",
+      "category": "today"
+    },
+    {
+      "id": "6",
+      "name": "User 6",
+      "email": "user6@example.com",
+      "createdAt": "2026-03-21T09:05:00Z",
+      "category": "today"
+    },
+    {
+      "id": "7",
+      "name": "User 7",
+      "email": "user7@example.com",
+      "createdAt": "2026-03-21T09:06:00Z",
+      "category": "today"
+    },
+    {
+      "id": "8",
+      "name": "User 8",
+      "email": "user8@example.com",
+      "createdAt": "2026-03-21T09:07:00Z",
+      "category": "today"
+    },
+    {
+      "id": "9",
+      "name": "User 9",
+      "email": "user9@example.com",
+      "createdAt": "2026-03-21T09:08:00Z",
+      "category": "today"
+    },
+    {
+      "id": "10",
+      "name": "User 10",
+      "email": "user10@example.com",
+      "createdAt": "2026-03-21T09:09:00Z",
+      "category": "today"
+    },
+    {
+      "id": "11",
+      "name": "User 11",
+      "email": "user11@example.com",
+      "createdAt": "2026-03-21T09:10:00Z",
+      "category": "today"
+    },
+    {
+      "id": "12",
+      "name": "User 12",
+      "email": "user12@example.com",
+      "createdAt": "2026-03-21T09:11:00Z",
+      "category": "today"
+    },
+    {
+      "id": "13",
+      "name": "User 13",
+      "email": "user13@example.com",
+      "createdAt": "2026-03-21T09:12:00Z",
+      "category": "today"
+    },
+    {
+      "id": "14",
+      "name": "User 14",
+      "email": "user14@example.com",
+      "createdAt": "2026-03-21T09:13:00Z",
+      "category": "today"
+    },
+    {
+      "id": "15",
+      "name": "User 15",
+      "email": "user15@example.com",
+      "createdAt": "2026-03-21T09:14:00Z",
+      "category": "today"
+    },
+    {
+      "id": "16",
+      "name": "User 16",
+      "email": "user16@example.com",
+      "createdAt": "2026-03-21T09:15:00Z",
+      "category": "today"
+    },
+    {
+      "id": "17",
+      "name": "User 17",
+      "email": "user17@example.com",
+      "createdAt": "2026-03-21T09:16:00Z",
+      "category": "today"
+    },
+    {
+      "id": "18",
+      "name": "User 18",
+      "email": "user18@example.com",
+      "createdAt": "2026-03-21T09:17:00Z",
+      "category": "today"
+    },
+    {
+      "id": "19",
+      "name": "User 19",
+      "email": "user19@example.com",
+      "createdAt": "2026-03-21T09:18:00Z",
+      "category": "today"
+    },
+    {
+      "id": "20",
+      "name": "User 20",
+      "email": "user20@example.com",
+      "createdAt": "2026-03-21T09:19:00Z",
+      "category": "today"
+    },
+    {
+      "id": "21",
+      "name": "User 21",
+      "email": "user21@example.com",
+      "createdAt": "2026-03-21T09:20:00Z",
+      "category": "today"
+    },
+    {
+      "id": "22",
+      "name": "User 22",
+      "email": "user22@example.com",
+      "createdAt": "2026-03-21T09:21:00Z",
+      "category": "today"
+    },
+    {
+      "id": "23",
+      "name": "User 23",
+      "email": "user23@example.com",
+      "createdAt": "2026-03-21T09:22:00Z",
+      "category": "today"
+    },
+    {
+      "id": "24",
+      "name": "User 24",
+      "email": "user24@example.com",
+      "createdAt": "2026-03-21T09:23:00Z",
+      "category": "today"
+    },
+    {
+      "id": "25",
+      "name": "User 25",
+      "email": "user25@example.com",
+      "createdAt": "2026-03-21T09:24:00Z",
+      "category": "today"
+    },
+    {
+      "id": "26",
+      "name": "User 26",
+      "email": "user26@example.com",
+      "createdAt": "2026-03-20T10:00:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "27",
+      "name": "User 27",
+      "email": "user27@example.com",
+      "createdAt": "2026-03-20T10:01:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "28",
+      "name": "User 28",
+      "email": "user28@example.com",
+      "createdAt": "2026-03-20T10:02:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "29",
+      "name": "User 29",
+      "email": "user29@example.com",
+      "createdAt": "2026-03-20T10:03:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "30",
+      "name": "User 30",
+      "email": "user30@example.com",
+      "createdAt": "2026-03-20T10:04:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "31",
+      "name": "User 31",
+      "email": "user31@example.com",
+      "createdAt": "2026-03-20T10:05:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "32",
+      "name": "User 32",
+      "email": "user32@example.com",
+      "createdAt": "2026-03-20T10:06:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "33",
+      "name": "User 33",
+      "email": "user33@example.com",
+      "createdAt": "2026-03-20T10:07:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "34",
+      "name": "User 34",
+      "email": "user34@example.com",
+      "createdAt": "2026-03-20T10:08:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "35",
+      "name": "User 35",
+      "email": "user35@example.com",
+      "createdAt": "2026-03-20T10:09:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "36",
+      "name": "User 36",
+      "email": "user36@example.com",
+      "createdAt": "2026-03-20T10:10:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "37",
+      "name": "User 37",
+      "email": "user37@example.com",
+      "createdAt": "2026-03-20T10:11:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "38",
+      "name": "User 38",
+      "email": "user38@example.com",
+      "createdAt": "2026-03-20T10:12:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "39",
+      "name": "User 39",
+      "email": "user39@example.com",
+      "createdAt": "2026-03-20T10:13:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "40",
+      "name": "User 40",
+      "email": "user40@example.com",
+      "createdAt": "2026-03-20T10:14:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "41",
+      "name": "User 41",
+      "email": "user41@example.com",
+      "createdAt": "2026-03-20T10:15:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "42",
+      "name": "User 42",
+      "email": "user42@example.com",
+      "createdAt": "2026-03-20T10:16:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "43",
+      "name": "User 43",
+      "email": "user43@example.com",
+      "createdAt": "2026-03-20T10:17:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "44",
+      "name": "User 44",
+      "email": "user44@example.com",
+      "createdAt": "2026-03-20T10:18:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "45",
+      "name": "User 45",
+      "email": "user45@example.com",
+      "createdAt": "2026-03-20T10:19:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "46",
+      "name": "User 46",
+      "email": "user46@example.com",
+      "createdAt": "2026-03-20T10:20:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "47",
+      "name": "User 47",
+      "email": "user47@example.com",
+      "createdAt": "2026-03-20T10:21:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "48",
+      "name": "User 48",
+      "email": "user48@example.com",
+      "createdAt": "2026-03-20T10:22:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "49",
+      "name": "User 49",
+      "email": "user49@example.com",
+      "createdAt": "2026-03-20T10:23:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "50",
+      "name": "User 50",
+      "email": "user50@example.com",
+      "createdAt": "2026-03-20T10:24:00Z",
+      "category": "yesterday"
+    },
+    {
+      "id": "51",
+      "name": "User 51",
+      "email": "user51@example.com",
+      "createdAt": "2026-03-19T11:00:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "52",
+      "name": "User 52",
+      "email": "user52@example.com",
+      "createdAt": "2026-03-18T11:01:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "53",
+      "name": "User 53",
+      "email": "user53@example.com",
+      "createdAt": "2026-03-17T11:02:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "54",
+      "name": "User 54",
+      "email": "user54@example.com",
+      "createdAt": "2026-03-16T11:03:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "55",
+      "name": "User 55",
+      "email": "user55@example.com",
+      "createdAt": "2026-03-19T11:04:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "56",
+      "name": "User 56",
+      "email": "user56@example.com",
+      "createdAt": "2026-03-18T11:05:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "57",
+      "name": "User 57",
+      "email": "user57@example.com",
+      "createdAt": "2026-03-17T11:06:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "58",
+      "name": "User 58",
+      "email": "user58@example.com",
+      "createdAt": "2026-03-16T11:07:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "59",
+      "name": "User 59",
+      "email": "user59@example.com",
+      "createdAt": "2026-03-19T11:08:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "60",
+      "name": "User 60",
+      "email": "user60@example.com",
+      "createdAt": "2026-03-18T11:09:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "61",
+      "name": "User 61",
+      "email": "user61@example.com",
+      "createdAt": "2026-03-17T11:10:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "62",
+      "name": "User 62",
+      "email": "user62@example.com",
+      "createdAt": "2026-03-16T11:11:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "63",
+      "name": "User 63",
+      "email": "user63@example.com",
+      "createdAt": "2026-03-19T11:12:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "64",
+      "name": "User 64",
+      "email": "user64@example.com",
+      "createdAt": "2026-03-18T11:13:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "65",
+      "name": "User 65",
+      "email": "user65@example.com",
+      "createdAt": "2026-03-17T11:14:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "66",
+      "name": "User 66",
+      "email": "user66@example.com",
+      "createdAt": "2026-03-16T11:15:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "67",
+      "name": "User 67",
+      "email": "user67@example.com",
+      "createdAt": "2026-03-19T11:16:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "68",
+      "name": "User 68",
+      "email": "user68@example.com",
+      "createdAt": "2026-03-18T11:17:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "69",
+      "name": "User 69",
+      "email": "user69@example.com",
+      "createdAt": "2026-03-17T11:18:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "70",
+      "name": "User 70",
+      "email": "user70@example.com",
+      "createdAt": "2026-03-16T11:19:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "71",
+      "name": "User 71",
+      "email": "user71@example.com",
+      "createdAt": "2026-03-19T11:20:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "72",
+      "name": "User 72",
+      "email": "user72@example.com",
+      "createdAt": "2026-03-18T11:21:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "73",
+      "name": "User 73",
+      "email": "user73@example.com",
+      "createdAt": "2026-03-17T11:22:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "74",
+      "name": "User 74",
+      "email": "user74@example.com",
+      "createdAt": "2026-03-16T11:23:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "75",
+      "name": "User 75",
+      "email": "user75@example.com",
+      "createdAt": "2026-03-19T11:24:00Z",
+      "category": "this_week"
+    },
+    {
+      "id": "76",
+      "name": "User 76",
+      "email": "user76@example.com",
+      "createdAt": "2026-03-14T08:00:00Z",
+      "category": "older"
+    },
+    {
+      "id": "77",
+      "name": "User 77",
+      "email": "user77@example.com",
+      "createdAt": "2026-03-13T08:01:00Z",
+      "category": "older"
+    },
+    {
+      "id": "78",
+      "name": "User 78",
+      "email": "user78@example.com",
+      "createdAt": "2026-03-12T08:02:00Z",
+      "category": "older"
+    },
+    {
+      "id": "79",
+      "name": "User 79",
+      "email": "user79@example.com",
+      "createdAt": "2026-03-11T08:03:00Z",
+      "category": "older"
+    },
+    {
+      "id": "80",
+      "name": "User 80",
+      "email": "user80@example.com",
+      "createdAt": "2026-03-10T08:04:00Z",
+      "category": "older"
+    },
+    {
+      "id": "81",
+      "name": "User 81",
+      "email": "user81@example.com",
+      "createdAt": "2026-03-09T08:05:00Z",
+      "category": "older"
+    },
+    {
+      "id": "82",
+      "name": "User 82",
+      "email": "user82@example.com",
+      "createdAt": "2026-03-08T08:06:00Z",
+      "category": "older"
+    },
+    {
+      "id": "83",
+      "name": "User 83",
+      "email": "user83@example.com",
+      "createdAt": "2026-03-07T08:07:00Z",
+      "category": "older"
+    },
+    {
+      "id": "84",
+      "name": "User 84",
+      "email": "user84@example.com",
+      "createdAt": "2026-03-06T08:08:00Z",
+      "category": "older"
+    },
+    {
+      "id": "85",
+      "name": "User 85",
+      "email": "user85@example.com",
+      "createdAt": "2026-03-05T08:09:00Z",
+      "category": "older"
+    },
+    {
+      "id": "86",
+      "name": "User 86",
+      "email": "user86@example.com",
+      "createdAt": "2026-03-04T08:10:00Z",
+      "category": "older"
+    },
+    {
+      "id": "87",
+      "name": "User 87",
+      "email": "user87@example.com",
+      "createdAt": "2026-03-03T08:11:00Z",
+      "category": "older"
+    },
+    {
+      "id": "88",
+      "name": "User 88",
+      "email": "user88@example.com",
+      "createdAt": "2026-03-02T08:12:00Z",
+      "category": "older"
+    },
+    {
+      "id": "89",
+      "name": "User 89",
+      "email": "user89@example.com",
+      "createdAt": "2026-03-01T08:13:00Z",
+      "category": "older"
+    },
+    {
+      "id": "90",
+      "name": "User 90",
+      "email": "user90@example.com",
+      "createdAt": "2026-02-28T08:14:00Z",
+      "category": "older"
+    },
+    {
+      "id": "91",
+      "name": "User 91",
+      "email": "user91@example.com",
+      "createdAt": "2026-02-27T08:15:00Z",
+      "category": "older"
+    },
+    {
+      "id": "92",
+      "name": "User 92",
+      "email": "user92@example.com",
+      "createdAt": "2026-02-26T08:16:00Z",
+      "category": "older"
+    },
+    {
+      "id": "93",
+      "name": "User 93",
+      "email": "user93@example.com",
+      "createdAt": "2026-02-25T08:17:00Z",
+      "category": "older"
+    },
+    {
+      "id": "94",
+      "name": "User 94",
+      "email": "user94@example.com",
+      "createdAt": "2026-02-24T08:18:00Z",
+      "category": "older"
+    },
+    {
+      "id": "95",
+      "name": "User 95",
+      "email": "user95@example.com",
+      "createdAt": "2026-02-23T08:19:00Z",
+      "category": "older"
+    },
+    {
+      "id": "96",
+      "name": "User 96",
+      "email": "user96@example.com",
+      "createdAt": "2026-02-22T08:20:00Z",
+      "category": "older"
+    },
+    {
+      "id": "97",
+      "name": "User 97",
+      "email": "user97@example.com",
+      "createdAt": "2026-02-21T08:21:00Z",
+      "category": "older"
+    },
+    {
+      "id": "98",
+      "name": "User 98",
+      "email": "user98@example.com",
+      "createdAt": "2026-02-20T08:22:00Z",
+      "category": "older"
+    },
+    {
+      "id": "99",
+      "name": "User 99",
+      "email": "user99@example.com",
+      "createdAt": "2026-02-19T08:23:00Z",
+      "category": "older"
+    },
+    {
+      "id": "100",
+      "name": "User 100",
+      "email": "user100@example.com",
+      "createdAt": "2026-02-18T08:24:00Z",
+      "category": "older"
+    }
+  ]
+}

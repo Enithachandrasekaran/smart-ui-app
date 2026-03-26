@@ -1,0 +1,35 @@
+/* Main layout */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #172450;
+  color: white;
+  padding: 20px;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+/* ✅ FIX: Cards layout */
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards in one row */
+  gap: 20px;
+}
+
+/* Card styling */
+.dashboard-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
