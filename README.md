@@ -1,18 +1,38 @@
-# React + Vite
+# RedStream — Blood Bank Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A healthcare web application for managing blood donation, donors, patients, and role-based dashboards.
 
-Currently, two official plugins are available:
+**Live demo:** [redstream-enitha-s-projects.vercel.app](https://redstream-enitha-s-projects.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Author:** [Enitha Chandrasekaran](https://github.com/Enithachandrasekaran)
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Landing page with blood donation awareness UI
+- User registration and login
+- Role-based access (admin, doctor, patient, user)
+- Patient management dashboard
+- REST API with Express + MongoDB
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19 + Vite
+- React Router, Formik, Yup
+- Tailwind CSS
+- Express.js + MongoDB (Mongoose)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+npm install
+npm start
+```
+
+Runs the API server (`http://localhost:5001`) and Vite dev server together.
+
+Copy `.env.example` to `.env` and set your MongoDB URI.
+
+## Repository
+
+- GitHub: [github.com/Enithachandrasekaran/smart-ui-app](https://github.com/Enithachandrasekaran/smart-ui-app)
+- Portfolio: [enithachandrasekaran.github.io/enitha-portfolio](https://enithachandrasekaran.github.io/enitha-portfolio/)

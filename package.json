@@ -49,9 +49,14 @@
     "tailwindcss": "^3.4.19",
     "vite": "^7.2.4"
   },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "description": "RedStream — Blood Bank Management System",
   "main": "eslint.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["react", "blood-bank", "healthcare", "redstream"],
+  "author": "Enitha Chandrasekaran <https://github.com/Enithachandrasekaran>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enithachandrasekaran/smart-ui-app.git"
+  },
+  "homepage": "https://redstream-enitha-s-projects.vercel.app"
 }
