@@ -4,6 +4,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import AddPatientForm from "./AddPatientForm";
 import { Navigate } from "react-router-dom";
+import { TableSkeleton } from "./SkeletonLoaders";
 
 const API_BASE = "";
 
@@ -25,7 +26,7 @@ const Dashboard = () => {
 
   // 🔐 ROLE PROTECTION
   if (!user || String(user.role || "").toLowerCase() === "doctor") {
-    return <Navigate to="/" />;
+    return <Navigate to="/login" />;
   }
 
 
@@ -163,7 +164,7 @@ const Dashboard = () => {
           )}
 
           {/* ⏳ Loading */}
-          {loading && <p>Loading...</p>}
+          {loading && <TableSkeleton />}
 
           {/* ✏️ Edit Form */}
           {editingId && (

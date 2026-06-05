@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Registration from "./Registration";
 import { useAuth } from "../context/AuthContext";
+import bloodImage from "../assets/login-blood-donation-image.png";
+import { ButtonSkeleton } from "./SkeletonLoaders";
 
 const API_BASE =
   (import.meta.env.VITE_API_URL &&
@@ -15,7 +17,7 @@ const ROLE_ROUTES = {
   admin: "/admin/dashboard",
   doctor: "/doctor/dashboard",
   patient: "/patient/dashboard",
-  user: "/dashboard",
+  user: "/user/dashboard",
 };
 
 const LoginDashboard = () => {
@@ -79,7 +81,7 @@ const LoginDashboard = () => {
 
       // ✅ FIX ROLE (important)
       const role = (user.role || "user").toLowerCase();
-      navigate(ROLE_ROUTES[role] || "/dashboard");
+      navigate(ROLE_ROUTES[role] || "/user/dashboard");
 
     } catch (err) {
       const isAbort =
@@ -100,13 +102,14 @@ const LoginDashboard = () => {
   }
 
   return (
-    <div className="container">
-      <div className="left">
+    <div className="login-page">
+      <div className="login-left">
         <div className="login-card">
 
-          <div className="header">
-            <h1 className="title">Dashboard</h1>
-            <h2 className="subtitle">FurtArt</h2>
+          <div className="login-header">
+            <p className="login-kicker">Welcome Back</p>
+            <h1 className="login-title">Login</h1>
+            <h2 className="login-subtitle">TALBlood Aid Dashboard</h2>
           </div>
 
           {error && <p className="error">{error}</p>}
@@ -149,7 +152,7 @@ const LoginDashboard = () => {
               className="login-btn"
               disabled={loading}
             >
-              {loading ? "Logging in..." : "LOGIN"}
+              {loading ? <ButtonSkeleton label="Logging in" /> : "LOGIN"}
             </button>
 
           </form>
@@ -171,10 +174,8 @@ const LoginDashboard = () => {
         </div>
       </div>
 
-      <div className="right">
-        <div className="image-placeholder">
-          <p>Image Here</p>
-        </div>
+      <div className="login-right">
+        <img className="login-right-image" src={bloodImage} alt="Login illustration" />
       </div>
     </div>
   );

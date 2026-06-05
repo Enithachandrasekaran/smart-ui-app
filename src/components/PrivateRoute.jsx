@@ -1,25 +1,29 @@
-import { Navigate } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import { PageSkeleton } from "./SkeletonLoaders";
 
-const PrivateRoute = ({ children, allowedRoles }) => {
+const PrivateRoute = ({ allowedRoles }) => {
+
   const { auth, loading } = useAuth();
 
-  // Wait for cookie restore on first load/refresh
   if (loading) {
-    return null;
+    return <PageSkeleton message="Checking session" />;
   }
 
-  if (!auth?.user) {
-    return <Navigate to="/" />;
+  // Check auth
+  if (!auth) {
+    return <Navigate to="/login" replace />;
   }
 
-  const role = (auth.user.role || "user").toLowerCase();
+  // Get role
+  const role = (auth.role || "user").toLowerCase();
 
+  // Role validation
   if (allowedRoles && !allowedRoles.includes(role)) {
-    return <Navigate to="/" />;
+    return <Navigate to="/login" replace />;
   }
 
-  return children;
+  return <Outlet />;
 };
 
 export default PrivateRoute;

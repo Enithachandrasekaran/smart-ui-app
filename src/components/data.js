@@ -71,3 +71,4 @@ export const products = [
     offerPrice: 720,
   },
 ];
+console.log(products);

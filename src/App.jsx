@@ -1,9 +1,9 @@
 import "./App.css";
+import LandingPage from "./pages/landingpage/LandingPage";
 
-import LoginDashboard from "./components/LoginDashboard";
 
 function App() {
-  return <LoginDashboard />;
+  return <LandingPage />;
 }
 
 export default App;

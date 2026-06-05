@@ -18,14 +18,16 @@ const sanitizeUser = (user = {}) => {
 
 const setCookie = (name, value, days) => {
   const expires = new Date(Date.now() + days * 864e5).toUTCString();
-  document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Lax`;
+
+  document.cookie = `${name}=${value}; expires=${expires}; path=/; SameSite=Lax`;
 };
 
 const getCookie = (name) => {
   const match = document.cookie
     .split("; ")
     .find((row) => row.startsWith(name + "="));
-  return match ? decodeURIComponent(match.split("=")[1]) : null;
+
+  return match ? match.split("=")[1] : null;
 };
 
 const deleteCookie = (name) => {

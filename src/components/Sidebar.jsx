@@ -5,22 +5,22 @@ import { useAuth } from "../context/AuthContext";
 const MENU = {
   admin: [
     { name: "Dashboard",    path: "/admin/dashboard" },
-    { name: "Patients",     path: "/patients" },
-    { name: "Shop",         path: "/shop" },
+    { name: "Patients",     path: "/admin/patients" },
+    { name: "Shop",         path: "/admin/shop" },
     { name: "Appointments" },
     { name: "Tools" },
     { name: "Settings" },
   ],
   doctor: [
     { name: "Dashboard",    path: "/doctor/dashboard" },
-    { name: "Shop",         path: "/shop" },
+    { name: "Shop",         path: "/doctor/shop" },
   ],
   patient: [
     { name: "Dashboard", path: "/patient/dashboard" },
   ],
   user: [
-    { name: "Dashboard",    path: "/dashboard" },
-    { name: "Patients",     path: "/patients" },
+    { name: "Dashboard",    path: "/user/dashboard" },
+    { name: "Patients",     path: "/user/patients" },
   ],
 };
 
@@ -43,7 +43,7 @@ const Sidebar = () => {
 
   const handleLogout = () => {
     logout();
-    navigate("/");
+    navigate("/login");
   };
 
   const isActive = (path) => location.pathname === path;

@@ -1,6 +1,7 @@
 import "./Registration.css";
 
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 /* Backend API – port must match server (.env PORT=5001) */
 const API_BASE =
@@ -17,6 +18,7 @@ const stateCities = {
 };
 
 const Registration = ({ onSwitchToLogin }) => {
+  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -58,6 +60,15 @@ const Registration = ({ onSwitchToLogin }) => {
   };
 
   const getCities = () => stateCities[formData.state] || [];
+
+  const handleLoginClick = () => {
+    if (onSwitchToLogin) {
+      onSwitchToLogin();
+      return;
+    }
+
+    navigate("/login");
+  };
 
   /* Submit Form */
   const handleSubmit = async (e) => {
@@ -131,7 +142,14 @@ const Registration = ({ onSwitchToLogin }) => {
   };
 
   return (
-    <>
+    <main className="registration-page">
+      <section className="registration-card">
+        <div className="registration-header">
+          <p className="registration-kicker">Create Account</p>
+          <h1>Register</h1>
+          <p>Join TALBlood Aid and manage your blood donation requests easily.</p>
+        </div>
+
       {error && <p className="error">{error}</p>}
 
       <form className="registration-form" onSubmit={handleSubmit}>
@@ -228,7 +246,14 @@ const Registration = ({ onSwitchToLogin }) => {
           </label>
         </div>
 
-        <button className="login-btn">REGISTER</button>
+        <button type="submit" className="registration-submit-btn">REGISTER</button>
+
+        <p className="registration-login-link">
+          Already have an account?{" "}
+          <button type="button" onClick={handleLoginClick}>
+            Login
+          </button>
+        </p>
 
         <p className="backend-link">
           Backend (MongoDB): <a href={API_BASE} target="_blank" rel="noopener noreferrer">{API_BASE}</a>
@@ -236,7 +261,8 @@ const Registration = ({ onSwitchToLogin }) => {
           <small>Start with: npm run server</small>
         </p>
       </form>
-    </>
+      </section>
+    </main>
   );
 };
 
