@@ -1,4 +1,4 @@
-import "./patients.css";
+import "./Patients.css";
 import { useEffect, useState } from "react";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
