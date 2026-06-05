@@ -25,7 +25,7 @@ const CallToAction = () => {
           Fast access to donors when every minute matters
         </h2>
         <p className="mt-4 text-sm leading-7 text-gray-600 sm:text-base">
-          TALBlood Aid connects patients, donors, and healthcare teams to make
+          RedStream connects patients, donors, and healthcare teams to make
           blood support simple, quick, and reliable.
         </p>
         <button

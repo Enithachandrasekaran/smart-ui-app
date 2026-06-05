@@ -147,7 +147,7 @@ const Registration = ({ onSwitchToLogin }) => {
         <div className="registration-header">
           <p className="registration-kicker">Create Account</p>
           <h1>Register</h1>
-          <p>Join TALBlood Aid and manage your blood donation requests easily.</p>
+          <p>Join RedStream and manage your blood donation requests easily.</p>
         </div>
 
       {error && <p className="error">{error}</p>}

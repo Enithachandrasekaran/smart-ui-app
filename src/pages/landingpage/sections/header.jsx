@@ -16,7 +16,7 @@ const Header = () => {
           />
           <div>
             <p className="text-base font-bold leading-none text-gray-900 sm:text-lg">
-              TALBlood Aid
+              RedStream
             </p>
             <p className="text-xs text-gray-500">Donate blood, save lives</p>
           </div>

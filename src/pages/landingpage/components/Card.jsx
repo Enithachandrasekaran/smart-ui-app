@@ -56,7 +56,7 @@ const Features = () => {
         <p className="text-xl md:text-2xl font-semibold text-gray-800 tracking-wide">
           TAL{" "}
           <span className="text-red-600 font-bold">
-            Blood Aid:
+            RedStream:
           </span>
         </p>
 

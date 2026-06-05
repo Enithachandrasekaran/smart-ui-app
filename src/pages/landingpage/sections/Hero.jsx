@@ -32,7 +32,7 @@ const BloodHero = () => {
           </p>
 
           <p className="text-gray-700 font-medium">
-            TALBlood Aid bridges the gap between you and donors.
+            RedStream bridges the gap between you and donors.
           </p>
 
           {/* BUTTONS */}

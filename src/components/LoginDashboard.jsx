@@ -109,7 +109,7 @@ const LoginDashboard = () => {
           <div className="login-header">
             <p className="login-kicker">Welcome Back</p>
             <h1 className="login-title">Login</h1>
-            <h2 className="login-subtitle">TALBlood Aid Dashboard</h2>
+            <h2 className="login-subtitle">RedStream Dashboard</h2>
           </div>
 
           {error && <p className="error">{error}</p>}
