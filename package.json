@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "server": "node server.js",
     "start": "concurrently \"npm run server\" \"npm run dev\"",
-    "build:serve": "npm run build && node server.js"
+    "build:serve": "npm run build && node server.js",
+    "screenshots": "node scripts/capture-screenshots.mjs"
   },
   "dependencies": {
     "cors": "^2.8.6",

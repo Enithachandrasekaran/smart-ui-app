@@ -37,13 +37,13 @@ Recruiters and reviewers can explore the **live UI on Vercel** in under 30 secon
 ## Screenshots
 
 ### Landing page
-![RedStream landing page](./src/assets/homebanner-blood-hero.png)
-
-### Hero section
-![RedStream hero banner](./src/assets/herobanner.png)
+![RedStream landing page](./docs/screenshots/landing.png)
 
 ### Login
-![RedStream login](./src/assets/login-blood-donation-image.png)
+![RedStream login](./docs/screenshots/login.png)
+
+### Registration
+![RedStream registration](./docs/screenshots/registration.png)
 
 ---
 
